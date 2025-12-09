@@ -1,0 +1,24 @@
+# --- Global ---
+
+# env files (all folders)
+.env
+*.env
+**/.env
+
+# OS files
+.DS_Store
+
+# --- Node (frontend + backend) ---
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Python (if backend is Python) ---
+__pycache__/
+*.py[cod]
+*.sqlite3
+.venv/
+venv/
+env/
